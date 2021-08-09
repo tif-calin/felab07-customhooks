@@ -1,0 +1,34 @@
+
+body {
+  font-family: 'Source Sans Pro', 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #root {
+    max-width: 360px;
+  }
+}
+
+.Header {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Home {
+  padding: 1rem;
+  ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
