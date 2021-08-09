@@ -1,0 +1,76 @@
+{
+  "twinpeaks":{ 
+    "url": "https://damp-cove-34137.herokuapp.com/api/characters",
+    "name": "Twin Peaks",
+    "count": 74,
+    "pathToList": [],
+    "id": "name",
+    "title": "name",
+    "image": "image",
+    "endpoints": {
+      "getAll": "/",
+      "getById": "/:splat",
+      "getByTitle": "/:splat"
+    }
+  },
+  "avatar": {
+    "url": "https://last-airbender-api.herokuapp.com/api/v1/characters",
+    "name": "Avatar: The Last Airbender",
+    "count": 497,
+    "pathToList": [],
+    "id": "_id",
+    "title": "name",
+    "image": "photoUrl",
+    "endpoints": {
+      "getAll": "/?perPage=999",
+      "getById": "/:splat",
+      "getByPage": "?page=:splat&perPage=20",
+      "getByTitle": "?name=:splat",
+      "getRandom": "/random"
+    }
+  },
+  "rickandmorty": {
+    "url": "https://rickandmortyapi.com/api/character",
+    "name": "Rick and Morty",
+    "count": 671,
+    "pathToList": ["results"],
+    "id": "id",
+    "title": "name",
+    "image": "image",
+    "endpoints": {
+      "getAll": "/",
+      "getById": "/:splat",
+      "getByPage": "/?page=:splat&perPage=20",
+      "getByTitle": "/?name=:splat"
+    }
+  },
+  "heyarnold": {
+    "url": "https://hey-arnold-api.herokuapp.com/api/v1/characters",
+    "name": "Hey Arnold!",
+    "count": 218,
+    "pathToList": [],
+    "id": "_id",
+    "title": "name",
+    "image": "image",
+    "endpoints": {
+      "getAll": "/?perPage=999",
+      "getById": "/:splat",
+      "getByPage": "/?page=:splat&perPage=20",
+      "getByTitle": "/?name=:splat",
+      "getRandom": "/random?count=1"
+    }
+  },
+  "animalcrossing": {
+    "url": "https://acnhapi.com/v1a/villagers",
+    "name": "Animal Crossing",
+    "count": 391,
+    "pathToList": [],
+    "id": "id",
+    "title": ["name", "name-USen"],
+    "image": "image_uri",
+    "endpoints": {
+      "getAll": "/",
+      "getById": "/:splat"
+    }
+  }
+}
