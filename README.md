@@ -1,15 +1,15 @@
 # lab07 custom-hooks
 ### goals
- - [ ] homepage: select which api
- - [ ] header: react router to go between pages
- - [ ] listpage: has paging, uses custom hooks
+ - [x] homepage: select which api
+ - [x] header: react router to go between pages
+ - [x] listpage: has paging, uses custom hooks
  - [ ] testing: snapshot, behavior, mock
 
 ### grading
- - [ ] (5pts) use custom hooks
+ - [x] (5pts) use custom hooks
  - [ ] (4pts) behavioral tests
- - [ ] (1pts) header
- - [ ] (+2pts) paging
+ - [x] (1pts) header
+ - [x] (+2pts) paging
 
 ### useful links
  - [canvas](https://canvas.instructure.com/courses/3106948/assignments/23310050?module_item_id=49574547)
