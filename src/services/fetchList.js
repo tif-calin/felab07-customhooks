@@ -18,6 +18,7 @@ const fetchByPage = async (key, page) => {
 
   return await fetch(api.url + api.endpoints.getByPage.replace(':splat', page))
     .then(resp => resp.json())
+    .then(json => api.pathToList.reduce((acc, val) => acc[val], json))
   ;
 };
 
